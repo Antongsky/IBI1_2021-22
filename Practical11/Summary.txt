@@ -1,0 +1,6 @@
+My findings: 
+  The amino acid sequence alignment score between human DLX5 protein and mice DLX5 protein is 10, and the percentage of identical aminal acids is 0.9654. 
+  The alignment score between human human DLX5 protein and random sequence is 280, and the percentage of identical aminal acids is 0.0311.
+  The alignment score between mice DLX5 protein and random sequence is 281, and the percentage of identical aminal acids is 0.0277.
+My interpretation:
+  From the alignment outcome, the percentage of identical aminal acids between human DLX5 protein and mice DLX5 protein is 0.9654. The figure is close to 1, which indicates that the sequence of DLX5 protein is highly concervative during evolution, and didn't change much from mice to human. This is also an evidence for biological integrality. However, the figure is bwlow 1, which indicates that variations happen along with evolution, and variations can lead to biological diversity. That's why humans are different from mice.   
