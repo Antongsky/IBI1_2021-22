@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
+from matplotlib.pyplot import MultipleLocator
 import numpy as np
 
 #basic file manipulations
@@ -46,19 +47,27 @@ print(np.mean(new_case_china))  #mean of new cases in China
 print(np.mean(new_death_china)) #mean of new deaths in China
 print(np.mean(new_death_china)/np.mean(new_case_china)) #The death rate
 plt.boxplot(new_case_china)#make the boxplot
-plt.xlabel("China new cases boxplot") 
+plt.title("China new cases boxplot")
+plt.ylabel("number") 
 plt.show()
 plt.clf()
 plt.boxplot(new_death_china)
-plt.xlabel("China new deaths boxplot")  
+plt.title("China new deaths boxplot") 
+plt.ylabel("number")  
 plt.show()
 plt.clf()
 plt.plot(china_date,new_case_china,'b+')
-plt.xlabel("China new cases against time plot")
+plt.title("China new cases against time plot")
+plt.xlabel("date")
+plt.ylabel("number")
+plt.gca().xaxis.set_major_locator(MultipleLocator(20))
 plt.show()
 plt.clf()
 plt.plot(china_date,new_death_china,'ro')
-plt.xlabel("China new deathes against time plot")
+plt.title("China new deathes against time plot")
+plt.xlabel("date")
+plt.ylabel("number")
+plt.gca().xaxis.set_major_locator(MultipleLocator(20))
 plt.show()
 
 #Asking questions
@@ -67,7 +76,10 @@ total_case_spain=covid_data.loc[6720:6812,'total_cases']
 spain_date=covid_data.loc[6720:6812,'date']
 plt.plot(spain_date,new_case_spain,'b+')
 plt.plot(spain_date,total_case_spain,'r+')
-plt.xlabel("Spain new cases and deathes against time plot")
+plt.title("Spain new cases and deathes against time plot")
+plt.xlabel("date")
+plt.ylabel("number")
+plt.gca().xaxis.set_major_locator(MultipleLocator(20))
 plt.show()
 
 
