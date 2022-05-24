@@ -1,6 +1,6 @@
 import re
 
-gene=open(r"D:\IBI-githubspace\IBI1_2021-22\Practical8\Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa",'r')
+gene=open(r"Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa",'r')
 print(gene.readline()) #Trying to open the file and read the first line.
 
 
