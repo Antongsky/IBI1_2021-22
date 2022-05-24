@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer: There is a loop adding progress from 1-10. As progress turned to 10, a random number from 1-100 is generated and printed.
+# Answer: There is a loop adding progress from 1-10. Each time a random number n is generated. As progress turned to 10, the number is printed.
 
 # Import libraries
 # randint allows drawing a random number,
@@ -15,5 +15,4 @@ while progress<10:
 	progress+=1
 	print(progress)
 	n = randint(1,100)
-
 print(n)
