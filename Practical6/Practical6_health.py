@@ -16,6 +16,9 @@ print(dic[30])   # Here,"30"can be modified into other keys.
 
 #construct a scattered plot
 plt.scatter(paternal_age,chd)
+plt.title("The relationshoip of offspring CHD relative risk with paternal age.")
+plt.xlabel("paternal age")
+plt.ylabel("offspring CHD relative risk")
 plt.show()
 
 

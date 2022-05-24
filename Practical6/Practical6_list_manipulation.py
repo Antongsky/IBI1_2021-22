@@ -7,6 +7,8 @@ marks=[45,36,86,57,53,92,65,45]
 print(sorted(marks))
 #create a boxplot
 plt.boxplot(marks)
+plt.title("Boxplot of marks")
+plt.ylabel("mark")
 plt.show()
 #check whether pass
 np_marks=np.array(marks)
