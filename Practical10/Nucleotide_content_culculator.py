@@ -29,6 +29,7 @@ def count(gene_sequence):
 #Use the function
 sequence="AATTCGAatcgc"
 print(count(sequence))   #Test the function, sequence without error.
-
+#Outcome: A is 0.333333 T is 0.250000 C is 0.250000 G is 0.166667.
 sequence="AAGTcJK"
 print(count(sequence))   #Test the function, sequence with error.
+#Outcome: Sequence error!

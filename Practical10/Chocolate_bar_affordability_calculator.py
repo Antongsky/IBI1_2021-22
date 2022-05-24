@@ -7,3 +7,5 @@ def affordability(total_money,price):
 total_money=100000
 price=5.99
 print(affordability(total_money, price))
+
+#Outcome: number of bars that can be bought: 16694.000000, change left over: 2.940000.

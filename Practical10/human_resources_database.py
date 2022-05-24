@@ -10,3 +10,4 @@ class Staff():
 #Example
 a=Staff(first_name="Antongsky",last_name="Lin",location="International campus",role="faculty")
 print(a.info())
+#Outcome: Full name: Antongsky Lin, location: International campus, role: faculty.
